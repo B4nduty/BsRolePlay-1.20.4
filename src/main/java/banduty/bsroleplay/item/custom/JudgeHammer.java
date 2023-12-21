@@ -13,15 +13,15 @@ import net.minecraft.util.TypedActionResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 
-public class JudgesGavel extends Item {
-    public JudgesGavel (Settings settings) {
+public class JudgeHammer extends Item {
+    public JudgeHammer (Settings settings) {
         super(settings);
     }
 
     public ActionResult useOnBlock(ItemUsageContext context) {
         BlockPos positionClicked = context.getBlockPos();
         PlayerEntity player = context.getPlayer();
-        context.getWorld().playSound(null, positionClicked, ModSounds.JUDGES_GAVEL_RIGHT_CLICK,
+        context.getWorld().playSound(null, positionClicked, ModSounds.JUDGE_HAMMER_RIGHT_CLICK,
                 SoundCategory.BLOCKS, 1f, 1f);
 
         return ActionResult.SUCCESS;

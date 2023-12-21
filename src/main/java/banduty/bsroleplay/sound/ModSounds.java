@@ -7,7 +7,7 @@ import net.minecraft.sound.SoundEvent;
 import net.minecraft.util.Identifier;
 
 public class ModSounds {
-    public static final SoundEvent JUDGES_GAVEL_RIGHT_CLICK = registerSoundEvent("judges_gavel_right_click");
+    public static final SoundEvent JUDGE_HAMMER_RIGHT_CLICK = registerSoundEvent("judge_hammer_right_click");
 
     private static SoundEvent registerSoundEvent(String name) {
         Identifier id = new Identifier(BsRolePlay.MOD_ID, name);

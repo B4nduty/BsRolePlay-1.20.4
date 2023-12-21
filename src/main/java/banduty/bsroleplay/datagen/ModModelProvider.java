@@ -19,7 +19,7 @@ public class ModModelProvider extends FabricModelProvider {
 
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
-        itemModelGenerator.register(ModItems.JUDGES_GAVEL, Models.GENERATED);
+        itemModelGenerator.register(ModItems.JUDGE_HAMMER, Models.GENERATED);
 
     }
 }
