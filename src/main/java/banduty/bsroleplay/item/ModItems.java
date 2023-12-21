@@ -1,6 +1,7 @@
 package banduty.bsroleplay.item;
 
 import banduty.bsroleplay.BsRolePlay;
+import banduty.bsroleplay.item.custom.JudgesGavel;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
@@ -13,7 +14,8 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 public class ModItems {
-    public static final Item JUDGES_GAVEL = registerItem("judges_gavel", new Item(new FabricItemSettings()));
+    public static final Item JUDGES_GAVEL = registerItem("judges_gavel",
+            new JudgesGavel(new FabricItemSettings().maxCount(1)));
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(JUDGES_GAVEL);
     }

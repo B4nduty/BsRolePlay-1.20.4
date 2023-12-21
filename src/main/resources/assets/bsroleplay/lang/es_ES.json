@@ -1,3 +1,7 @@
 {
-  "item.bsroleplay.judgesgavel": "Martillo de Juez"
+  "item.bsroleplay.judges_gavel": "Martillo de Juez",
+
+  "itemgroup.bsroleplay": "BsRolePlay",
+
+  "sounds.bsroleplay.judges_gavel_right_click": "Golpe de Martillo de Juez"
 }

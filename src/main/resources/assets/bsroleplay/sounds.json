@@ -1,0 +1,8 @@
+{
+  "judges_gavel_right_click": {
+    "subtitle": "sounds.bsroleplay.judges_gavel_right_click",
+    "sounds": [
+      "bsroleplay:judges_gavel_right_click"
+    ]
+  }
+}

@@ -1,3 +1,7 @@
 {
-  "item.bsroleplay.judgesgavel": "Judge's Gavel"
+  "item.bsroleplay.judges_gavel": "Judge's Gavel",
+
+  "itemgroup.bsroleplay": "BsRolePlay",
+
+  "sounds.bsroleplay.judges_gavel_right_click": "Judge's Gavel Noise"
 }

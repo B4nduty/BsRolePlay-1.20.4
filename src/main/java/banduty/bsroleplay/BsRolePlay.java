@@ -1,6 +1,8 @@
 package banduty.bsroleplay;
 
+import banduty.bsroleplay.item.ModItemGroups;
 import banduty.bsroleplay.item.ModItems;
+import banduty.bsroleplay.sound.ModSounds;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -12,6 +14,10 @@ public class BsRolePlay implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItemGroups.registerItemGroups();
+
 		ModItems.registerModItems();
+
+		ModSounds.registerSounds();
 	}
 }
