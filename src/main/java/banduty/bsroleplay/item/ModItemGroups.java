@@ -16,6 +16,10 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.JUDGE_HAMMER)).entries((displayContext, entries) -> {
                         entries.add(ModItems.JUDGE_HAMMER);
 
+                        entries.add(ModItems.JUDGE_CHESTPLATE);
+                        entries.add(ModItems.JUDGE_LEGGINGS);
+                        entries.add(ModItems.JUDGE_BOOTS);
+
                     }).build());
 
     public static void registerItemGroups() {

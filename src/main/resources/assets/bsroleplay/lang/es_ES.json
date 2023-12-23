@@ -1,5 +1,12 @@
 {
+  "item.bsroleplay.judge": "Juez",
+
   "item.bsroleplay.judge_hammer": "Martillo de Juez",
+
+  "item.bsroleplay.judge_helmet": "Toga Capa",
+  "item.bsroleplay.judge_chestplate": "Toga Superior",
+  "item.bsroleplay.judge_leggings": "Toga Inferior",
+  "item.bsroleplay.judge_boots": "Zapatos de Juez",
 
   "itemgroup.bsroleplay": "BsRolePlay",
 

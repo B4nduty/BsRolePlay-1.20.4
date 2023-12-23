@@ -1,3 +1,9 @@
-// 1.20.1	2023-12-20T22:48:13.2473558	BsRolePlay/Recipes
-389eb77c34f1c375fd96eadd1d703e66316f582f data\bsroleplay\advancements\recipes\misc\judges_gavel.json
-0d0af8cf342455d7bb3070ce4840023f5c221652 data\bsroleplay\recipes\judges_gavel.json
+// 1.20.1	2023-12-23T00:01:35.2422043	BsRolePlay/Recipes
+27705d91c10e589b49ccb1989379e0428fc28b7d data\bsroleplay\advancements\recipes\misc\judge_chestplate.json
+04cc6744783875867b42b923625bab86fb7ab727 data\bsroleplay\recipes\judge_chestplate.json
+5275db865b0ba6b451548a196daf74ad20ea1e84 data\bsroleplay\recipes\judge_hammer.json
+f6c1a23c258c489e947c3688765f5e58d600e6e9 data\bsroleplay\recipes\judge_boots.json
+7c2db12287e85420db10fe215c42aa757dd8a1da data\bsroleplay\recipes\judge_leggings.json
+c2ced41e3a5f3d18f941965229d6ceb9dd9589f0 data\bsroleplay\advancements\recipes\misc\judge_hammer.json
+405d8662ab677aa9fd2e6c6f6711243b14f8b14f data\bsroleplay\advancements\recipes\misc\judge_boots.json
+ef7fdf0ace9a2cc869d7ce716830e3e118d7a31f data\bsroleplay\advancements\recipes\misc\judge_leggings.json

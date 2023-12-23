@@ -1,5 +1,12 @@
 {
+  "item.bsroleplay.judge": "Judge",
+
   "item.bsroleplay.judge_hammer": "Judge Hammer",
+
+  "item.bsroleplay.judge_helmet": "Judge Helmet",
+  "item.bsroleplay.judge_chestplate": "Judge Top Toga",
+  "item.bsroleplay.judge_leggings": "Judge Bottom Toga",
+  "item.bsroleplay.judge_boots": "Judge Shoes",
 
   "itemgroup.bsroleplay": "BsRolePlay",
 
