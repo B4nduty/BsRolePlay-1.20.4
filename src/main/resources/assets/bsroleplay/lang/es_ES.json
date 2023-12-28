@@ -2,6 +2,7 @@
   "item.bsroleplay.judge": "Juez",
 
   "item.bsroleplay.judge_hammer": "Martillo de Juez",
+  "tooltip.bsroleplay.judgehammer.tooltip": "Al darle Clic Derecho hace un Sonido",
 
   "item.bsroleplay.judge_chestplate": "Toga Superior",
   "item.bsroleplay.judge_leggings": "Toga Inferior",
@@ -15,6 +16,7 @@
   "item.bsroleplay.police_boots": "Zapatos Policiales",
 
   "item.bsroleplay.holy_weapon": "Arma Sagrada",
+  "tooltip.bsroleplay.holyweapon.tooltip": "Al darle Clic Derecho aparece un Rayo",
 
   "item.bsroleplay.holy_helmet": "Aureola",
 

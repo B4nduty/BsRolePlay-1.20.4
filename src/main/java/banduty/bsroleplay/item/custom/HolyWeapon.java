@@ -1,17 +1,23 @@
 package banduty.bsroleplay.item.custom;
 
 import banduty.bsroleplay.sound.ModSounds;
+import net.minecraft.client.item.TooltipContext;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.LightningEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemUsageContext;
 import net.minecraft.sound.SoundCategory;
 import net.minecraft.sound.SoundEvents;
+import net.minecraft.text.Text;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
+import org.jetbrains.annotations.Nullable;
+
+import java.util.List;
 
 public class HolyWeapon extends Item {
     public HolyWeapon (Settings settings) {
@@ -31,5 +37,11 @@ public class HolyWeapon extends Item {
                 SoundCategory.BLOCKS, 1f, 1f);
 
         return ActionResult.SUCCESS;
+    }
+
+    @Override
+    public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
+        tooltip.add(Text.translatable("tooltip.bsroleplay.holyweapon.tooltip"));
+        super.appendTooltip(stack, world, tooltip, context);
     }
 }

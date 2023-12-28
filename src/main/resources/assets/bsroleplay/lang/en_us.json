@@ -2,6 +2,7 @@
   "item.bsroleplay.judge": "Judge",
 
   "item.bsroleplay.judge_hammer": "Judge Hammer",
+  "tooltip.bsroleplay.judgehammer.tooltip": "When Right Click play a Sound",
 
   "item.bsroleplay.judge_chestplate": "Judge Top Toga",
   "item.bsroleplay.judge_leggings": "Judge Bottom Toga",
@@ -15,6 +16,7 @@
   "item.bsroleplay.police_boots": "Police Boots",
 
   "item.bsroleplay.holy_weapon": "Holy Weapon",
+  "tooltip.bsroleplay.holyweapon.tooltip": "When Right Click summon a Lightning",
 
   "item.bsroleplay.holy_helmet": "Halo",
 
