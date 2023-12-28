@@ -26,5 +26,12 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.JUDGE_LEGGINGS));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.JUDGE_BOOTS));
 
+        itemModelGenerator.register(ModItems.POLICE_BATON, Models.HANDHELD);
+
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.POLICE_HELMET));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.POLICE_CHESTPLATE));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.POLICE_LEGGINGS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.POLICE_BOOTS));
+
     }
 }

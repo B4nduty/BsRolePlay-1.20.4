@@ -8,13 +8,17 @@ import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
+import net.minecraft.item.SwordItem;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 public class ModItems {
     public static final Item JUDGE_HAMMER = registerItem("judge_hammer",
-            new JudgeHammer(new FabricItemSettings().maxCount(1)));
+            new JudgeHammer(new FabricItemSettings().maxCount(1).maxDamage(0)));
+
+    public static final Item POLICE_BATON = registerItem("police_baton",
+            new SwordItem(ModToolMaterial.POLICE, 3, 1f, new FabricItemSettings().maxDamage(0)));
 
     public static final Item JUDGE_CHESTPLATE = registerItem("judge_chestplate",
             new ArmorItem(ModArmorMaterials.JUDGE, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
@@ -23,8 +27,18 @@ public class ModItems {
     public static final Item JUDGE_BOOTS = registerItem("judge_boots",
             new ArmorItem(ModArmorMaterials.JUDGE, ArmorItem.Type.BOOTS, new FabricItemSettings()));
 
+    public static final Item POLICE_HELMET = registerItem("police_helmet",
+            new ArmorItem(ModArmorMaterials.POLICE, ArmorItem.Type.HELMET, new FabricItemSettings()));
+    public static final Item POLICE_CHESTPLATE = registerItem("police_chestplate",
+            new ArmorItem(ModArmorMaterials.POLICE, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+    public static final Item POLICE_LEGGINGS = registerItem("police_leggings",
+            new ArmorItem(ModArmorMaterials.POLICE, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+    public static final Item POLICE_BOOTS = registerItem("police_boots",
+            new ArmorItem(ModArmorMaterials.POLICE, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(JUDGE_HAMMER);
+        entries.add(POLICE_BATON);
     }
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(BsRolePlay.MOD_ID, name), item);

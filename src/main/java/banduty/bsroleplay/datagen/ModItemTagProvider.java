@@ -16,6 +16,8 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
     @Override
     protected void configure(RegistryWrapper.WrapperLookup arg) {
         getOrCreateTagBuilder(ItemTags.TRIMMABLE_ARMOR)
-                .add(ModItems.JUDGE_CHESTPLATE, ModItems.JUDGE_LEGGINGS, ModItems.JUDGE_BOOTS);
+                .add(ModItems.JUDGE_CHESTPLATE, ModItems.JUDGE_LEGGINGS, ModItems.JUDGE_BOOTS)
+                .add(ModItems.POLICE_HELMET, ModItems.POLICE_LEGGINGS, ModItems.POLICE_LEGGINGS, ModItems.POLICE_BOOTS);;
     }
+
 }

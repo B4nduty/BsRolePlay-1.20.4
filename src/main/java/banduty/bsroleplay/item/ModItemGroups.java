@@ -20,6 +20,13 @@ public class ModItemGroups {
                         entries.add(ModItems.JUDGE_LEGGINGS);
                         entries.add(ModItems.JUDGE_BOOTS);
 
+                        entries.add(ModItems.POLICE_BATON);
+
+                        entries.add(ModItems.POLICE_HELMET);
+                        entries.add(ModItems.POLICE_CHESTPLATE);
+                        entries.add(ModItems.POLICE_LEGGINGS);
+                        entries.add(ModItems.POLICE_BOOTS);
+
                     }).build());
 
     public static void registerItemGroups() {
