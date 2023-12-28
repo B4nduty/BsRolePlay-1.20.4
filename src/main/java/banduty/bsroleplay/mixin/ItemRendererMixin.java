@@ -30,4 +30,12 @@ public abstract class ItemRendererMixin {
         }
         return value;
     }
+
+    @ModifyVariable(method = "renderItem", at = @At(value = "HEAD"), argsOnly = true)
+    public BakedModel useHolyWeaponModel(BakedModel value, ItemStack stack, ModelTransformationMode renderMode, boolean leftHanded, MatrixStack matrices, VertexConsumerProvider vertexConsumers, int light, int overlay) {
+        if (stack.isOf(ModItems.HOLY_WEAPON) && renderMode != ModelTransformationMode.GUI) {
+            return ((ItemRendererAccessor) this).mccourse$getModels().getModelManager().getModel(new ModelIdentifier(BsRolePlay.MOD_ID, "holy_weapon_3d", "inventory"));
+        }
+        return value;
+    }
 }

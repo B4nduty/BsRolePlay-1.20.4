@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "G": {
+      "item": "minecraft:gold_block"
+    },
+    "H": {
+      "item": "bsroleplay:holy_weapon"
+    }
+  },
+  "pattern": [
+    "GGG",
+    "GHG",
+    "GGG"
+  ],
+  "result": {
+    "item": "bsroleplay:holy_helmet"
+  },
+  "show_notification": true
+}

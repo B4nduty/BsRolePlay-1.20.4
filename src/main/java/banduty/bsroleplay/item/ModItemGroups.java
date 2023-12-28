@@ -27,6 +27,10 @@ public class ModItemGroups {
                         entries.add(ModItems.POLICE_LEGGINGS);
                         entries.add(ModItems.POLICE_BOOTS);
 
+                        entries.add(ModItems.HOLY_WEAPON);
+
+                        entries.add(ModItems.HOLY_HELMET);
+
                     }).build());
 
     public static void registerItemGroups() {

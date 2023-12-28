@@ -14,6 +14,10 @@
   "item.bsroleplay.police_leggings": "Pantalón Policial",
   "item.bsroleplay.police_boots": "Zapatos Policiales",
 
+  "item.bsroleplay.holy_weapon": "Arma Sagrada",
+
+  "item.bsroleplay.holy_helmet": "Aureola",
+
   "itemgroup.bsroleplay": "BsRolePlay",
 
   "sounds.bsroleplay.judge_hammer_right_click": "Golpe de Martillo de Juez"

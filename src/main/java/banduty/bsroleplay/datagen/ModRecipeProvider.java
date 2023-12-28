@@ -77,7 +77,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('B', Items.BLACK_WOOL)
                 .input('P', ModItems.POLICE_BATON)
                 .criterion(hasItem(Items.BLACK_WOOL), conditionsFromItem(Items.BLACK_WOOL))
-                .criterion(hasItem(Items.IRON_INGOT), conditionsFromItem(Items.IRON_INGOT))
+                .criterion(hasItem(ModItems.POLICE_BATON), conditionsFromItem(ModItems.POLICE_BATON))
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.POLICE_HELMET)));
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.POLICE_CHESTPLATE, 1)
@@ -87,7 +87,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('B', Items.BLACK_WOOL)
                 .input('P', ModItems.POLICE_BATON)
                 .criterion(hasItem(Items.BLACK_WOOL), conditionsFromItem(Items.BLACK_WOOL))
-                .criterion(hasItem(Items.IRON_INGOT), conditionsFromItem(Items.IRON_INGOT))
+                .criterion(hasItem(ModItems.POLICE_BATON), conditionsFromItem(ModItems.POLICE_BATON))
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.POLICE_CHESTPLATE)));
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.POLICE_LEGGINGS, 1)
@@ -97,7 +97,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('B', Items.BLACK_WOOL)
                 .input('P', ModItems.POLICE_BATON)
                 .criterion(hasItem(Items.BLACK_WOOL), conditionsFromItem(Items.BLACK_WOOL))
-                .criterion(hasItem(Items.IRON_INGOT), conditionsFromItem(Items.IRON_INGOT))
+                .criterion(hasItem(ModItems.POLICE_BATON), conditionsFromItem(ModItems.POLICE_BATON))
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.POLICE_LEGGINGS)));
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.POLICE_BOOTS, 1)
@@ -107,7 +107,29 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('B', Items.BLACK_WOOL)
                 .input('P', ModItems.POLICE_BATON)
                 .criterion(hasItem(Items.BLACK_WOOL), conditionsFromItem(Items.BLACK_WOOL))
-                .criterion(hasItem(Items.IRON_INGOT), conditionsFromItem(Items.IRON_INGOT))
+                .criterion(hasItem(ModItems.POLICE_BATON), conditionsFromItem(ModItems.POLICE_BATON))
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.POLICE_BOOTS)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.HOLY_WEAPON, 1)
+                .pattern(" G ")
+                .pattern("WSW")
+                .pattern(" W ")
+                .input('W', Items.DARK_OAK_WOOD)
+                .input('G', Items.GOLD_BLOCK)
+                .input('S', Items.NETHER_STAR)
+                .criterion(hasItem(Items.DARK_OAK_WOOD), conditionsFromItem(Items.BLACK_WOOL))
+                .criterion(hasItem(Items.GOLD_BLOCK), conditionsFromItem(Items.GOLD_BLOCK))
+                .criterion(hasItem(Items.NETHER_STAR), conditionsFromItem(Items.NETHER_STAR))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.HOLY_WEAPON)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.HOLY_HELMET, 1)
+                .pattern("GGG")
+                .pattern("GHG")
+                .pattern("GGG")
+                .input('G', Items.GOLD_BLOCK)
+                .input('H', ModItems.HOLY_WEAPON)
+                .criterion(hasItem(Items.GOLD_BLOCK), conditionsFromItem(Items.GOLD_BLOCK))
+                .criterion(hasItem(ModItems.HOLY_WEAPON), conditionsFromItem(ModItems.HOLY_WEAPON))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.HOLY_HELMET)));
     }
 }
