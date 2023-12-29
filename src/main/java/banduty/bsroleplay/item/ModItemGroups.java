@@ -31,6 +31,8 @@ public class ModItemGroups {
 
                         entries.add(ModItems.HOLY_HELMET);
 
+                        entries.add(ModItems.HOLY_CLOUD_SPAWN_EGG);
+
                     }).build());
 
     public static void registerItemGroups() {

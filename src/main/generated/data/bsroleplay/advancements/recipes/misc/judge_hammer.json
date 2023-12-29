@@ -46,16 +46,15 @@
   },
   "requirements": [
     [
+      "has_the_recipe",
       "has_stick",
       "has_gold_ingot",
-      "has_dark_oak_planks",
-      "has_the_recipe"
+      "has_dark_oak_planks"
     ]
   ],
   "rewards": {
     "recipes": [
       "minecraft:judge_hammer"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

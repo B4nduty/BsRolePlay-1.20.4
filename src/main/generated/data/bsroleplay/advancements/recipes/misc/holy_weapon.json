@@ -46,16 +46,15 @@
   },
   "requirements": [
     [
+      "has_the_recipe",
       "has_dark_oak_wood",
       "has_gold_block",
-      "has_nether_star",
-      "has_the_recipe"
+      "has_nether_star"
     ]
   ],
   "rewards": {
     "recipes": [
       "minecraft:holy_weapon"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

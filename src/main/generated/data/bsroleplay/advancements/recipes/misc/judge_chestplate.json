@@ -34,15 +34,14 @@
   },
   "requirements": [
     [
+      "has_the_recipe",
       "has_black_wool",
-      "has_judge_hammer",
-      "has_the_recipe"
+      "has_judge_hammer"
     ]
   ],
   "rewards": {
     "recipes": [
       "minecraft:judge_chestplate"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

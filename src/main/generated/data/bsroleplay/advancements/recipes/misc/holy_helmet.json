@@ -34,15 +34,14 @@
   },
   "requirements": [
     [
+      "has_the_recipe",
       "has_gold_block",
-      "has_holy_weapon",
-      "has_the_recipe"
+      "has_holy_weapon"
     ]
   ],
   "rewards": {
     "recipes": [
       "minecraft:holy_helmet"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

@@ -22,5 +22,7 @@
 
   "itemgroup.bsroleplay": "BsRolePlay",
 
+  "item.bsroleplay.holy_cloud_spawn_egg": "Generar Nubes Sagradas",
+
   "sounds.bsroleplay.judge_hammer_right_click": "Golpe de Martillo de Juez"
 }
