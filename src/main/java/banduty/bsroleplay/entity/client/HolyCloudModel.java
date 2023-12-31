@@ -68,6 +68,7 @@ public class HolyCloudModel<T extends HolyCloudEntity> extends SinglePartEntityM
 
 		this.animateMovement(ModAnimations.HOLY_CLOUD_WALK, limbSwing, limbSwingAmount, 2f, 2.5f);
 		this.updateAnimation(entity.idleAnimationState, ModAnimations.HOLY_CLOUD_IDLE, ageInTicks, 1f);
+		this.updateAnimation(entity.attackAnimationState, ModAnimations.HOLY_CLOUD_ATTACK, ageInTicks, 1f);
 
 	}
 

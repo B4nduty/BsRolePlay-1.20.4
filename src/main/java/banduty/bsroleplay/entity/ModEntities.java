@@ -14,6 +14,6 @@ public class ModEntities {
     public static final EntityType<HolyCloudEntity> HOLY_CLOUD = Registry.register(Registries.ENTITY_TYPE,
             new Identifier(BsRolePlay.MOD_ID, "holy_cloud"),
             FabricEntityTypeBuilder.create(SpawnGroup.CREATURE, HolyCloudEntity::new)
-                    .dimensions(EntityDimensions.fixed(1.25f, 1f)).build());
+                    .dimensions(EntityDimensions.fixed(1f, 0.4f)).build());
 
 }
