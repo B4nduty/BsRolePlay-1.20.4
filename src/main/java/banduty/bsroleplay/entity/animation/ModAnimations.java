@@ -7,7 +7,8 @@ import net.minecraft.client.render.entity.animation.Transformation;
 
 public class ModAnimations {
 
-    public static final Animation HOLY_CLOUD_WALK = Animation.Builder.create(4f)
+
+    public static final Animation HOLY_CLOUD_WALK = Animation.Builder.create(4f).looping()
             .addBoneAnimation("body",
                     new Transformation(Transformation.Targets.TRANSLATE,
                             new Keyframe(0f, AnimationHelper.createTranslationalVector(0f, 0f, 0f),
@@ -32,7 +33,7 @@ public class ModAnimations {
                                     Transformation.Interpolations.CUBIC),
                             new Keyframe(3.9167665f, AnimationHelper.createTranslationalVector(0f, 0f, 0f),
                                     Transformation.Interpolations.CUBIC))).build();
-    public static final Animation HOLY_CLOUD_IDLE = Animation.Builder.create(4f)
+    public static final Animation HOLY_CLOUD_IDLE = Animation.Builder.create(4f).looping()
             .addBoneAnimation("body",
                     new Transformation(Transformation.Targets.TRANSLATE,
                             new Keyframe(0f, AnimationHelper.createTranslationalVector(0f, 0f, 0f),
