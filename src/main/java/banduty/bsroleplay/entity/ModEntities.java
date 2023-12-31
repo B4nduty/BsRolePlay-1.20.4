@@ -16,4 +16,10 @@ public class ModEntities {
             FabricEntityTypeBuilder.create(SpawnGroup.CREATURE, HolyCloudEntity::new)
                     .dimensions(EntityDimensions.fixed(1f, 0.4f)).build());
 
+    public static void registerModEntities() {
+        BsRolePlay.LOGGER.info("Registering Entities for " + BsRolePlay.MOD_ID);
+    }
+
 }
+
+

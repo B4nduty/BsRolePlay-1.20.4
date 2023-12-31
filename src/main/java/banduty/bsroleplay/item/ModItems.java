@@ -42,7 +42,7 @@ public class ModItems {
             new ArmorItem(ModArmorMaterials.HOLY, ArmorItem.Type.HELMET, new FabricItemSettings()));
 
     public static final Item HOLY_CLOUD_SPAWN_EGG = registerItem("holy_cloud_spawn_egg",
-            new SpawnEggItem(ModEntities.HOLY_CLOUD, 0xCDCDCD, 0xF38D3C, new FabricItemSettings()));
+            new SpawnEggItem(ModEntities.HOLY_CLOUD, 0xCDCDCD, 0xFCC861, new FabricItemSettings()));
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
     }

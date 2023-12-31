@@ -24,5 +24,7 @@ public class BsRolePlay implements ModInitializer {
 		ModSounds.registerSounds();
 
 		FabricDefaultAttributeRegistry.register(ModEntities.HOLY_CLOUD, HolyCloudEntity.createHolyCloudAttributes());
+
+		ModEntities.registerModEntities();
 	}
 }
