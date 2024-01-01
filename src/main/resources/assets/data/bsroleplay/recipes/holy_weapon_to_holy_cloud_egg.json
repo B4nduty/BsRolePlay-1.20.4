@@ -1,0 +1,11 @@
+{
+  "type": "bsroleplay:holy_cloud_generator_station",
+  "ingredients": [
+    {
+      "item": "bsroleplay:holy_weapon"
+    }
+  ],
+  "output": {
+    "item": "bsroleplay:holy_cloud_spawn_egg"
+  }
+}

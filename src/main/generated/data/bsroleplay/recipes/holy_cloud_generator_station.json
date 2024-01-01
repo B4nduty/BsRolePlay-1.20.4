@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "H": {
+      "item": "bsroleplay:holy_weapon"
+    },
+    "W": {
+      "item": "minecraft:white_wool"
+    }
+  },
+  "pattern": [
+    "WWW",
+    "WHW",
+    "WWW"
+  ],
+  "result": {
+    "item": "bsroleplay:holy_cloud_generator_station"
+  }
+}

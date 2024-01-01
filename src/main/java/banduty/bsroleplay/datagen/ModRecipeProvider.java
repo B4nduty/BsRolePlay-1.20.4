@@ -1,5 +1,6 @@
 package banduty.bsroleplay.datagen;
 
+import banduty.bsroleplay.block.ModBlocks;
 import banduty.bsroleplay.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
@@ -131,5 +132,15 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Items.GOLD_BLOCK), conditionsFromItem(Items.GOLD_BLOCK))
                 .criterion(hasItem(ModItems.HOLY_WEAPON), conditionsFromItem(ModItems.HOLY_WEAPON))
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.HOLY_HELMET)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.HOLY_CLOUD_GENERATOR_STATION, 1)
+                .pattern("WWW")
+                .pattern("WHW")
+                .pattern("WWW")
+                .input('W', Items.WHITE_WOOL)
+                .input('H', ModItems.HOLY_WEAPON)
+                .criterion(hasItem(Items.WHITE_WOOL), conditionsFromItem(Items.WHITE_WOOL))
+                .criterion(hasItem(ModItems.HOLY_WEAPON), conditionsFromItem(ModItems.HOLY_WEAPON))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.HOLY_CLOUD_GENERATOR_STATION)));
     }
 }
